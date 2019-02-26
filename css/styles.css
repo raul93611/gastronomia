@@ -1,0 +1,35 @@
+.bg_vino{
+  background-image: url('../img/principal1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg_pan{
+  background-image: url('../img/principal2.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  order: 1;
+}
+
+.bg-primary{
+  background-color: #f46669 !important;
+}
+
+.bg-secondary{
+  background-color: #c7c57d !important;
+}
+
+.contenido{
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.imagen_superior > div, .imagen_inferior > div{
+  height: 400px;
+}
+
+@media (min-width: 768px) {
+  .bg_pan{
+    order: unset;
+  }
+}
