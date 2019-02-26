@@ -1,3 +1,7 @@
+body{
+  font-family: 'Lato', sans-serif;
+}
+
 .bg_vino{
   background-image: url('../img/principal1.jpg');
   background-size: cover;
@@ -11,8 +15,13 @@
   order: 1;
 }
 
-.bg-primary{
+.bg-primary, .horario{
   background-color: #f46669 !important;
+}
+
+.btn-primary{
+  background-color: #f46669 !important;
+  border-color: #f46669 !important;
 }
 
 .bg-secondary{
@@ -26,6 +35,25 @@
 
 .imagen_superior > div, .imagen_inferior > div{
   height: 400px;
+}
+
+.clases{
+  background-color: #e5e7ea;
+}
+
+.color{
+  color: #f46669;
+}
+
+.bg_licenciatura{
+  background-image: url('../img/chef_bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.bg_licenciatura h2{
+  font-weight: 900;
 }
 
 @media (min-width: 768px) {
